@@ -1,5 +1,5 @@
 ## Index Of Array Sequence
-> Find the index of array elements in a specific sequence
+> Find index of array sequence 
 
 ## Install
 ```
