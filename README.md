@@ -11,9 +11,14 @@ $ npm install --save index-of-array-sequence
 var indexOfArraySequence = require("index-of-array-sequence")
 
 quoteArray = ["canary", "in", "a", "coal", "mine"]
-sourceArray = ["Do", "you", "think", "it's", "a", "canary", "in", "the", "coal", "mine", "or", "not?"]
-found = indexOfArrySequence(quoteArray, sourceArray) 
-console.log(found) #=> true
+sourceArray = ["Do", "you", "think", "it's", "a", "canary", "in", "a", "coal", "mine", "or", "not?"]
+index = indexOfArrySequence(quoteArray, sourceArray) 
+console.log(index) #=> 4 
+```
+
+## Test
+```
+$ mocaha test.js
 ```
 
 ## API
@@ -30,7 +35,7 @@ console.log(found) #=> true
 var indexOfArraySequence = require("index-of-array-sequence")
 
 quoteArray = ["canary", "in", "a", "coal", "mine"]
-sourceArray = ["Do", "you", "think", "it's", "a", "canary", "in", "the", "coal", "mine", "or", "not?"]
-found = indexOfArrySequence(quoteArray, sourceArray) 
-console.log(found) #=> true
+sourceArray = ["Do", "you", "think", "it's", "a", "canary", "in", "a", "coal", "mine", "or", "not?"]
+index = indexOfArrySequence(quoteArray, sourceArray) 
+console.log(index) #=> 4 
 ```
