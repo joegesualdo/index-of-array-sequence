@@ -7,7 +7,7 @@ describe("indexOfArraySequence", function(){
     sourceArray = ["Do", "you", "think", "it's", "a", "canary", "in", "a", "coal", "mine", "or", "not?"]
     expect(indexOfArraySequence(quoteArray, sourceArray)).to.equal(5)
   })
-  it("returns -1 if it's found", function(){
+  it("returns -1 if the sequence is not found", function(){
     quoteArray = ["canary", "in", "the", "coal", "mine"]
     sourceArray = ["Do", "you", "think", "it's", "a", "canary", "in", "a", "coal", "mine", "or", "not?"]
     expect(indexOfArraySequence(quoteArray, sourceArray)).to.equal(-1)
