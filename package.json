@@ -1,6 +1,6 @@
 {
   "name": "index-of-array-sequence",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "> Find the index of array elements in a specific sequence",
   "main": "index.js",
   "scripts": {
