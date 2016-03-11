@@ -12,8 +12,8 @@ var indexOfArraySequence = require("index-of-array-sequence")
 
 quoteArray = ["canary", "in", "a", "coal", "mine"]
 sourceArray = ["Do", "you", "think", "it's", "a", "canary", "in", "a", "coal", "mine", "or", "not?"]
-index = indexOfArrySequence(quoteArray, sourceArray) 
-console.log(index) #=> 4 
+index = indexOfArraySequence(quoteArray, sourceArray) 
+console.log(index) #=> 5
 ```
 
 ## Test
@@ -37,5 +37,5 @@ var indexOfArraySequence = require("index-of-array-sequence")
 quoteArray = ["canary", "in", "a", "coal", "mine"]
 sourceArray = ["Do", "you", "think", "it's", "a", "canary", "in", "a", "coal", "mine", "or", "not?"]
 index = indexOfArrySequence(quoteArray, sourceArray) 
-console.log(index) #=> 4 
+console.log(index) #=> 5
 ```
