@@ -10,10 +10,10 @@ $ npm install --save index-of-array-sequence
 ```javascript
 var indexOfArraySequence = require("index-of-array-sequence")
 
-quoteArray = ["hello", "world"]
-sourceArray = ["This", "is", "a", "hello", "world", "program"]
+quote = "hello world"
+source = "This is a hello world program"
 
-indexOfArraySequence(quoteArray, sourceArray) 
+indexOfArraySequence(quote, source) 
 //=> 3
 ```
 
@@ -29,15 +29,15 @@ $ mocaha test.js
 
 | Name | Type | Description |
 |------|------|-------------|
-| searchSequence| `Array` | An array that represent the sequence you'll be searching for|
-| source | `Array` | The array to be searched |
+| searchSequence| `String|Array` | An array or string that represent the sequence you'll be searching for|
+| source | `String|Array` | The array or string to be searched |
 
 ```javascript
 var indexOfArraySequence = require("index-of-array-sequence")
 
-quoteArray = ["hello", "world"]
-sourceArray = ["This", "is", "a", "hello", "world", "program"]
+quote = "hello world"
+source = "This is a hello world program"
 
-indexOfArrySequence(quoteArray, sourceArray) 
+indexOfArraySequence(quote, source)
 //=> 3
 ```
