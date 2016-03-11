@@ -1,7 +1,7 @@
 {
   "name": "index-of-array-sequence",
-  "version": "0.0.3",
-  "description": "> Find the index of array elements in a specific sequence",
+  "version": "0.0.4",
+  "description": "Find the index of array elements in a specific sequence",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
