@@ -7,6 +7,19 @@ $ npm install --save index-of-array-sequence
 ```
 
 ## Usage
+
+#### Find the index of an array sequence
+```javascript
+var indexOfArraySequence = require("index-of-array-sequence")
+
+quote = ["hello","world"]
+source = ["This", "is", "a", "hello", "world", "program"]
+
+indexOfArraySequence(quote, source) 
+//=> 3
+```
+
+#### Find the index of a string sequence
 ```javascript
 var indexOfArraySequence = require("index-of-array-sequence")
 
